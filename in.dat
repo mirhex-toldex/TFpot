@@ -1,0 +1,12 @@
+#     Reads intial time, final time, steps to skip, Delta t.
+0.0d0,  36.58536585365854d0  50  0.01d0
+#
+#     Reads space grid as xMin, xMax and number of points
+      -200.0d0   200.0d0   4000
+#     
+#     Mass, Potential height/deep Vo, center position R0, Initial gaussian wavepacket center g0, width and velocity.
+1.0d0    -1.0d0    1.0d0   -50.0d0   30.0d0   4.1d0
+#     
+#     In case of providing with a file with an initial wavefunction 0 is no, 1 is yes
+      0
+      InitFile
