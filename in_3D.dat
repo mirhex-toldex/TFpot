@@ -1,0 +1,30 @@
+#     Reads intial time, final time,  Delta t, steps to skip.
+      0.0d0,  10.0d0  0.5d0  20
+#
+#     Reads space grid as xMin, xMax and number of points
+      -10.0d0   10.0d0  100
+#
+#     Reads space grid as yMin, yMax and number of points
+      -10.0d0   10.0d0  100
+#
+#     Reads space grid as zMin, zMax and number of points
+      -10.0d0   10.0d0  100
+#
+#     Mass1(electron), Mass(1)(nucleus target), Mass(2)(projectile), ZT, ZP
+      1.0d0    1836.0d0    1836.0d0    1.0d0   1.0d0 
+#     
+#     R(1,1), R(1,2), R(1,3) position for particle 1 (x,y,z) target
+      0.0d0   0.0d0   0.0d0
+#
+#     b, R(2,2), R(2,3) projectile b = Rx is impact parameter 
+      1.0d0    0.0d0   8.0d0
+#
+#     P(1,1), P(1,2), P(1,3) momentum for particle 1
+      0.0d0   0.0d0   0.0d0
+#
+#     P(2,1), P(2,2), P(2,3)
+      0.0d0   0.0d0   -1836.0d0
+#     
+#     In case of providing with a file with an initial wavefunction 0 is no, 1 is yes, GIF?
+      0, 1
+      InitFile
