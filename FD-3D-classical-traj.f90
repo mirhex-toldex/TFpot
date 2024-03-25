@@ -189,8 +189,9 @@
                      TMPY = TMPY + CONJG(PSI(IX,IY, IZ))*PSI(IX,IY, IZ)
                   ENDDO
                   DENZ(IX, IZ) = TMPY*yDelta
-                  WRITE(K,*) X(IX), Z(IZ), DENZ(IX,IZ)
+                  WRITE(K+100,*) X(IX), Z(IZ), DENZ(IX,IZ)
                ENDDO
+               WRITE(K+100,*) ' '
             ENDDO
         ENDIF
       ENDDO
@@ -466,7 +467,7 @@
       RETURN
       END
 
-! Calculates the new position by Euler method frpm the Momentum
+! Calculates the new position by Euler method from the Momentum
 !234567890
       SUBROUTINE CALCR(MASS, DT, R, P, ZT, ZP)
 
